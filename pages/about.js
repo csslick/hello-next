@@ -1,13 +1,11 @@
 import Link from "next/link"
+import Layout from "../components/Layout";
 
 function About() {
   return (
-    <>
+    <Layout>
       <h1>About</h1>
-      <Link href="./">
-        <a>Home</a>      
-      </Link>
-    </>
+    </Layout>
   )
 }
 
