@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 function Nav() {
   return (
-    <div>
+    <nav className='main_gnb'>
       <img src="./static/logo.png" alt="logo" height="50" />
       <Link href="/">
         <a>Home</a>
@@ -19,7 +19,7 @@ function Nav() {
           }
         `}
       </style>
-    </div>
+    </nav>
   );
 }
 
