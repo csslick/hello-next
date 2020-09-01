@@ -3,8 +3,8 @@ import Layout from "../components/Layout";
 
 function About() {
   return (
-    <Layout>
-      <h1>About</h1>
+    <Layout title="About">
+      <p>this is about page</p>
     </Layout>
   )
 }

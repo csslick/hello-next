@@ -9,11 +9,15 @@ import Nav from './Nav'
 //   )
 // }
 
-const Layout = ({children}) => {
+const Layout = ({title, footer, children}) => {
   return (
     <>
       <Nav />
+      <h1>{title}</h1>
+      <hr/>
       {children}
+      <hr/>
+      <h1>footer {footer}</h1>
     </>
   )
 }
