@@ -1,10 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
-  }
 
   // 모든 문서에 반영되는 셋업(수정 후 서버 재실행 필요)
   render() {

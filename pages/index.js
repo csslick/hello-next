@@ -6,7 +6,8 @@ const Index = () => {
   return (
     <Layout 
       title="Home title" 
-      footer={ 'Copyright ' + new Date().getFullYear()}>
+      footer={ 'Copyright ' + new Date().getFullYear()}
+    >
       <Head>
         <title>Home Page</title>
       </Head>
