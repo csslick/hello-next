@@ -9,9 +9,6 @@ const Index = () => {
       footer={ 'Copyright ' + new Date().getFullYear()}>
       <Head>
         <title>Home Page</title>
-        <meta name="description"  content="SEO React NEXT JS app" />
-        <meta name="keywords" content="react next seo" />
-        <meta name="author" content="Michael Kwon" />
       </Head>
       <p>Hello Next JS</p>
     </Layout>
