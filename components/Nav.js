@@ -8,7 +8,10 @@ function Nav() {
         <a>Home</a>
       </Link>
       <Link href="/about">
-        <a>about</a>
+        <a>About</a>
+      </Link>
+      <Link href="/movies_ssr">
+        <a>Movies</a>
       </Link>
 
       {/* scope style */}
