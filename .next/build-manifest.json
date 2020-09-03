@@ -24,6 +24,11 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/about.js"
+    ],
     "/movies_ssr": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
